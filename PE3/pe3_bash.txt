@@ -1,0 +1,58 @@
+Answer the following questions in a new file titled pe3_bash.txt. Before you start, you may want to see what shell you are using with the command `echo $SHELL`. bash and zsh will be fine for answering these questions. If you have questions about a different shell, please post these on piazza!
+
+What is the bash command to show your terminal's working directory (current location)?
+echo $SHELL
+
+How would you create an empty file called empty.txt from the command line?
+vim empty.txt
+
+Using the ls command, how would you list all files beginning with empty in your current directory?
+ls -t to get the most recently edited file first
+
+Using the ls command, the wc command, and the |, how would you count the number of files ending in .txt in your current directory?
+ls -l *.txt | wc -l
+
+Using the echo command and > or >>, what is the command to write your name to empty.txt?
+echo "Abeal Sileshi" > empty.txt
+
+What is the bash command to rename that file to notempty.txt?
+mv empty.txt notempty.txt
+
+What is the bash command to create a directory named pe3_bash?
+mkdir pe3_bash
+
+What is the command to move your terminal's working directory to pe3_bash?
+mv pe3_bash pe3_bash
+
+From the pe3_bash directory, how would you create a new directory, pe3_bash_number2 that has the same parent directory as pe3_bash?
+mkdir ../pe3_bash_number2
+
+What is the command to move from pe3_bash to pe3_bash_number2 (use only one command)?
+cd /Parentdirectory/pe3_bash_number2
+
+What does pressing the up arrow key do?
+It goes to the previous command
+
+What does pressing the down arrow key do?
+It'll go to the next command unless you don't have any next commands
+
+What does pressing ctrl+r do?
+It searches the history of commands
+
+What are two different command-line based text editors (text editors that run from the command line and do not open a separate application)? (Answer the following questions for each editor that you have chosen.)
+vim and nano
+
+What command do you use to open a file with this editor?
+'vim'  and 'nano'
+
+What command do you use to save a file while using this editor?
+:w - vim
+Ctrl + O - nano
+
+What command do you use to exit this editor?
+esc and then :wq - vim
+Ctrl + X - nano
+
+What are two reasons you might want to use the text editors listed above?
+Vim is free, open source, and uses less amount of system resources
+Nano is a modeless editor which means you can start writing as soon as you open it and nano is very easy to use
