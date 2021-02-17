@@ -1,0 +1,60 @@
+Here's a run through of the game:
+
+000
+000
+000
+Let's Play Tic-Tac-Toe!
+Where on the board would you like to go to?
+First choose the row (0,1,2): 1
+Now choose the colum (0,1,2): 1
+000
+010
+000
+Where on the board would you like to go to?
+First choose the row (0,1,2): 0
+Now choose the colum (0,1,2): 0
+200
+010
+000
+Where on the board would you like to go to?
+First choose the row (0,1,2): 1
+Now choose the colum (0,1,2): 2
+200
+011
+000
+Where on the board would you like to go to?
+First choose the row (0,1,2): 1
+Now choose the colum (0,1,2): 0
+200
+211
+000
+Where on the board would you like to go to?
+First choose the row (0,1,2): 2
+Now choose the colum (0,1,2): 0
+200
+211
+100
+Where on the board would you like to go to?
+First choose the row (0,1,2): 0
+Now choose the colum (0,1,2): 2
+202
+211
+100
+Where on the board would you like to go to?
+First choose the row (0,1,2): 0
+Now choose the colum (0,1,2): 1
+212
+211
+100
+Where on the board would you like to go to?
+First choose the row (0,1,2): 2
+Now choose the colum (0,1,2): 2
+212
+211
+102
+Where on the board would you like to go to?
+First choose the row (0,1,2): 2
+Now choose the colum (0,1,2): 1
+212
+211
+112
